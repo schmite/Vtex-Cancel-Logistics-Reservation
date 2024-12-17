@@ -1,4 +1,4 @@
-# Vtex-Cancel-Logistics-Rservation
+# Vtex-Cancel-Logistics-Reservation
 
 [PT-BR]
 Um simples script PHP que procura por todos os Skus na Vtex, buscando reservas expiradas. Quando encontrado, ele faz uma chamada de API para cancelar a reserva, liberando as quantidades de estoque reservadas.
