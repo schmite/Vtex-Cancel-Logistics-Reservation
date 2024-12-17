@@ -1,0 +1,22 @@
+{
+    "name": "schmite/vtex-cancel-logistics-rservation",
+    "description": "A simple PHP script searches for all Vtex Sku, seeking expired reservations. When found, it makes an API call to cancel the reservation, releasing the reserved stock quantities.",
+    "type": "project",
+    "require": {
+        "nesbot/carbon": "^3.8"
+    },
+    "require-dev": {
+        "nesbot/carbon": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Schmite\\VtexCancelLogisticsRservation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomir Schmite",
+            "email": "tomir.dsj@gmail.com"
+        }
+    ]
+}
